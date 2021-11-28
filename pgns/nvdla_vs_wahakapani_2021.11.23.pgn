@@ -1,0 +1,30 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.11.23"]
+[Round "-"]
+[White "nvdla"]
+[Black "wahakapani"]
+[Result "0-1"]
+[CurrentPosition "r1bqk2r/p2n1ppp/2p1p3/4P3/1b1p1B2/2NB4/PPP2PPP/R2QK2R w KQkq -"]
+[Timezone "UTC"]
+[ECO "B44"]
+[ECOUrl "https://www.chess.com/openings/Sicilian-Defense-Taimanov-Variation"]
+[UTCDate "2021.11.23"]
+[UTCTime "04:45:06"]
+[WhiteElo "1007"]
+[BlackElo "1001"]
+[TimeControl "60"]
+[Termination "wahakapani won by resignation"]
+[StartTime "04:45:06"]
+[EndDate "2021.11.23"]
+[EndTime "04:45:47"]
+[Link "https://www.chess.com/game/live/31381761147"]
+
+1. e4 {[%clk 0:01:00]} 1... c5 {[%clk 0:00:59.9]} 2. Nf3 {[%clk 0:00:59.2]} 2...
+Nc6 {[%clk 0:00:59.4]} 3. d4 {[%clk 0:00:58.8]} 3... cxd4 {[%clk 0:00:58.3]} 4.
+Nxd4 {[%clk 0:00:58.7]} 4... e6 {[%clk 0:00:58]} 5. Nc3 {[%clk 0:00:56.6]} 5...
+Bc5 {[%clk 0:00:56.3]} 6. Be3 {[%clk 0:00:55.6]} 6... Bb4 {[%clk 0:00:54.1]} 7.
+Nxc6 {[%clk 0:00:52.3]} 7... bxc6 {[%clk 0:00:54]} 8. Bd2 {[%clk 0:00:51.2]}
+8... Nf6 {[%clk 0:00:50.8]} 9. Bd3 {[%clk 0:00:50.7]} 9... d5 {[%clk 0:00:49.2]}
+10. e5 {[%clk 0:00:48.2]} 10... Nd7 {[%clk 0:00:48.1]} 11. Bf4 {[%clk
+0:00:43.5]} 11... d4 {[%clk 0:00:46.5]} 0-1

@@ -1,0 +1,50 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.11.23"]
+[Round "-"]
+[White "nvdla"]
+[Black "FernanCarlsen"]
+[Result "1-0"]
+[CurrentPosition "1k1r4/p7/1p5p/2bn2p1/4B3/1Q3P2/PPP3PP/3RB2K b - -"]
+[Timezone "UTC"]
+[ECO "C45"]
+[ECOUrl "https://www.chess.com/openings/Scotch-Game"]
+[UTCDate "2021.11.23"]
+[UTCTime "03:59:41"]
+[WhiteElo "1016"]
+[BlackElo "1016"]
+[TimeControl "60"]
+[Termination "nvdla won on time"]
+[StartTime "03:59:41"]
+[EndDate "2021.11.23"]
+[EndTime "04:01:50"]
+[Link "https://www.chess.com/game/live/31378800821"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 b6? ± {MISTAKE (+2.20)} ({(-0.03) The best move was}
+3... exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 Nb6 9. Nc3 Qe6 10.
+Qe4 d5 11. exd6 Qxe4+ 12. Nxe4 cxd6 13. b3 d5 14. cxd5 cxd5 15. Ng5 h6 16. Nf3
+Bd7 17. Bd3 Bb4+ 18. Bd2 Bxd2+ 19. Kxd2 O-O 20. Kc3 Rfe8) 4. dxe5 Bb7 5. Nc3 Qe7
+{INACCURACY (+4.13)} ({(+2.47) The best move was} 5... Nge7 6. h4 Ng6 7. Bg5 f6
+8. exf6 gxf6 9. Bd2 Qe7 10. Qe2 O-O-O 11. h5 Nge5 12. O-O-O Qf7 13. Kb1 Bc5 14.
+a3 Nxf3 15. Qxf3 Nd4 16. Qg3) 6. Bg5 f6 7. exf6? {MISTAKE (+1.43)} ({(+4.82) The
+best move was} 7. Nd5 fxg5 8. Nxe7 Bxe7 9. Bb5 O-O-O 10. Qe2 Kb8 11. Bxc6 dxc6
+12. Rd1 Rxd1+ 13. Qxd1 g4 14. Nd4 Nh6 15. Qe2 c5 16. Ne6 Bc8 17. Nxc7 Nf7 18.
+Nd5 Nxe5) 7... Nxf6 8. Bh4 h6 9. Bg3 = O-O-O 10. Bd3 Ne5?? ± {BLUNDER (+6.01)
+Critical mistake.} ({(+0.32) The best move was} 10... d5 11. e5 Nh5 12. Qe2 Nxg3
+13. fxg3 d4 14. Nd1 Qb4+ 15. Kf2 Qa4 16. Rf1 Nb4 17. Kg1 Nxd3 18. cxd3 Kb8 19.
+Nf2 Be7 20. a3 Qd7) 11. O-O?? {BLUNDER (+1.84)} ({(+6.01) The best move was} 11.
+Nxe5 Qe8 12. O-O Nh5 13. Nf3 Nxg3 14. hxg3 g5 15. Nd5 Bg7 16. c3 Kb8 17. Qa4 Rf8
+18. Nd4 Bxd4 19. Qxd4 Bxd5 20. Qxd5) 11... Nxf3+ 12. Qxf3 Kb8 13. Qe3? =
+{MISTAKE (+0.79)} ({(+2.47) The best move was} 13. Rae1 Re8 14. h3 Qc5 15. Nb5
+d6 16. c3 Be7 17. b4 Qg5 18. h4 Qh5 19. Nd4 Qxf3 20. Nxf3 Nh5 21. Bh2) 13... g5
+14. f3 Nh5 15. Bf2 d5? ± {MISTAKE (+2.83)} ({(+0.76) The best move was} 15...
+Nf4 16. Ne2 Qf7 17. Nxf4 gxf4 18. Qe2 Re8 19. Bd4 Rg8 20. Kh1 c5 21. Bc3 d5 22.
+Bb5 Re6 23. e5 d4) 16. exd5 {INACCURACY (+1.45)} ({(+2.83) The best move was}
+16. Nxd5 Qd7 17. Rad1 Bc5 18. Qd2 Bd6 19. Qc3 g4 20. e5 gxf3 21. exd6 Qxd6 22.
+Be4 fxg2 23. Bxg2 Rhg8 24. Ne3 Bxg2 25. Rxd6 Bxf1+ 26. Kxf1 Rxd6 27. Ke1) 16...
+Bg7?? {BLUNDER (+12.48)} ({(+1.45) The best move was} 16... Qf7 17. Qe6 Bxd5 18.
+Qxf7 Bxf7 19. g3 Bg7 20. Rae1 Rhf8 21. Kg2 Bxc3 22. bxc3 Bxa2 23. c4 Bb3 24. Re7
+a5 25. Rh7) 17. Qxe7 Rhe8 18. Qb4 Bf8 19. Qb3 Nf4 20. Rad1 c6 21. dxc6 Bxc6 22.
+Rfe1 Rxe1+ 23. Bxe1 Bd5 24. Nxd5 Nxd5 25. Be4 Bc5+ 26. Kh1 (26. Kh1 Rd6 27. Bg3
+Kc8 28. Bxd5 Kd8 29. Bxd6 Bxd6 30. Qc3 a5 31. Qc6 b5 32. Qxd6+ Kc8 33. Qc6+ Kd8
+34. Bb3+ Ke7 35. Re1+ Kd8 36. Re8#) 1-0
