@@ -101,8 +101,16 @@ public class BoardManager {
         board.remove(getKey(mi.getDest()));
 
         //Dest 채우기
-        insertPieceLabelToGrid(mi.getDest(),getLabel(mi.getTeam(),mi.getType()));
 
+        String labelType=mi.getType();
+
+        //승진이 있다면 labelType 을 승진타입으로 변경
+        String promoteTo = mi.getPromoteTo();
+        if(!promoteTo.equals("no promotion")){
+          labelType = promoteTo;
+        }
+
+        insertPieceLabelToGrid(mi.getDest(),getLabel(mi.getTeam(),labelType));
         board.updateUI();
 
     }

@@ -42,6 +42,7 @@ public class Pawn extends Piece{
             moveInfo.setType("Pawn");
             moveInfo.setTeam(team);
             moveInfo.setMoveCnt(mi.getMoveCnt());
+            moveInfo.setPromoteTo("no promotion");
         }
 
         return miList;

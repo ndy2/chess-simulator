@@ -12,10 +12,10 @@ public class PgnMoveOrder {
 
     public PgnMoveOrder(String moveOrderString) {
         moveOrderString = remove_parenthesis(moveOrderString)
-                .replaceAll("(=|\\?|±|(\\d{1}|\\d{2})\\.\\.\\.)", " ");
+                .replaceAll("(\\?|±|(\\d{1}|\\d{2})\\.\\.\\.)", " ");
 
         String[] split = moveOrderString.split("\\s+");
-        String[] mo = Arrays.copyOf(split, split.length - 1);
+        String[] mo = Arrays.copyOf(split, split.length - 1); //결과 제거 (1-0 or 1/2-1/2 or 0-1)
 
         whiteMoves = new ArrayList<>();
         blackMoves = new ArrayList<>();
@@ -38,8 +38,9 @@ public class PgnMoveOrder {
 
     private static String remove_parenthesis(String input_string){
         // removing parenthesis and everything inside them, works for () and {}
-        return input_string.replaceAll("\\s*\\{[^\\}]*\\}\\s*", " ")
-                .replaceAll("\\s*\\([^\\)]*\\)\\s*", " ");
+        return input_string.replaceAll("\\s*\\{[^}]*}\\s*", " ")
+                .replaceAll("\\s*\\([^)]*\\)\\s*", " ");
+
     }
 
     public int getMoveNumber() {

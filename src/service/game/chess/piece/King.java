@@ -78,6 +78,7 @@ public class King extends Piece{
             mi.setTeam(team);
             mi.setCastling(true);
             mi.setMoveCnt(moveCnt);
+            mi.setPromoteTo("no promotion");
         }
     }
 

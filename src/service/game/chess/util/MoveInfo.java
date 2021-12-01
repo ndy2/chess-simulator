@@ -7,10 +7,10 @@ public class MoveInfo {
     private int moveCnt;
 
     private boolean isTake;
-    private boolean isPromote;
+    private String promoteTo;
 
-    public boolean isPromote() {
-        return isPromote;
+    public String getPromoteTo() {
+        return promoteTo;
     }
 
     public boolean isCastling() {
@@ -52,8 +52,8 @@ public class MoveInfo {
         isTake = take;
     }
 
-    public void setPromote(boolean promote) {
-        isPromote = promote;
+    public void setPromoteTo(String promoteTo) {
+        this.promoteTo = promoteTo;
     }
 
     public boolean isTake() {
@@ -76,7 +76,6 @@ public class MoveInfo {
         this.team =team;
     }
 
-
     @Override
     public String toString() {
         return "MoveInfo{" +
@@ -86,7 +85,7 @@ public class MoveInfo {
                 ", dest=" + dest +
                 ", moveCnt=" + moveCnt +
                 ", isTake=" + isTake +
-                ", isPromote=" + isPromote +
+                ", promoteTo=" + promoteTo +
                 ", isCastling=" + isCastling +
                 '}';
     }

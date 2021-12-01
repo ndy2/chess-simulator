@@ -50,9 +50,24 @@ public class PieceMove {
         mi.setType(type);
         mi.setMoveCnt(moveCnt);
 
+        //check 표시 + 제거
         move =move.replaceAll("\\+","");
+
         int l = move.length();
 
+        //승진 처리
+        String promoteType = "no promotion";
+        if(move.charAt(l-2)=='='){
+            char pt = move.charAt(l-1);
+            promoteType = pt=='Q'?"Queen":
+                          pt=='R'?"Rookt":
+                          pt=='B'?"Bishop":
+                          pt=='N'?"Knight":"no promotion";
+            move = move.substring(0,l-2);
+            l -=2;
+        }
+        mi.setPromoteTo(promoteType);
+        
         String destStr = move.substring(l-2,l);
         Coordinate dest = new Coordinate(destStr);
         mi.setDest(dest);
@@ -77,7 +92,7 @@ public class PieceMove {
 
     private static String getConflictResolver(String type, String move) {
         String cr = move.replaceAll("x","");
-        if(type =="Pawn"){
+        if(type.equals("Pawn")){
             cr = cr.substring(0,1);
         }else{
             cr = cr.substring(1,cr.length()-2);

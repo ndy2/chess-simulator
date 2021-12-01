@@ -109,11 +109,33 @@ public class ChessService implements GameService {
         Piece fromPiece=pieceMap.get(fromKey, mi.getTeam());
         Piece destPiece = pieceMap.get(destKey);
 
+        //출발지, 도착지 기물 제거
         pieceMap.remove(fromKey, mi.getTeam());
         pieceMap.remove(destKey);
 
+        //출발 기물의 좌표를 도착지로 변경
         fromPiece.setCoor(mi.getDest());
-        pieceMap.put(destKey, fromPiece,mi.getTeam());
+
+        String  promoteTo = mi.getPromoteTo();
+        if(!promoteTo.equals("no promotion")){
+            Piece promotedPiece = null;
+
+            if (promoteTo.equals("Queen")) {
+                promotedPiece = new Queen(fromPiece.getCoor());
+            }else if(promoteTo.equals("Rook")){
+                promotedPiece = new Rook(fromPiece.getCoor());
+            }else if(promoteTo.equals("Knight")){
+                promotedPiece = new Knight(fromPiece.getCoor());
+            }else if(promoteTo.equals("Bishop")){
+                promotedPiece = new Bishop(fromPiece.getCoor());
+            }
+            pieceMap.put(destKey, promotedPiece,mi.getTeam());
+        }else{
+            //변경된 기물을 도착지의 좌표에 삽입
+            pieceMap.put(destKey, fromPiece,mi.getTeam());
+        }
+
+        //capturedPieces 업데이트를 위한 잡은 기물 반환
         return destPiece;
     }
 
