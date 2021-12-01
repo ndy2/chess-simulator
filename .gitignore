@@ -2,3 +2,4 @@ out/*
 .idea/*
 .git/*
 java-project.iml
+chess-simulator.iml
