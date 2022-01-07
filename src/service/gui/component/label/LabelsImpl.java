@@ -27,7 +27,7 @@ public class LabelsImpl{
 
     private static Icon getIcon(String filename) {
         try {
-            return new ImageIcon(ImageIO.read(LabelsImpl.class.getResourceAsStream("/" + filename)));
+            return new ImageIcon(ImageIO.read(LabelsImpl.class.getResourceAsStream("/resources/" + filename)));
         } catch (IOException e) {
             e.printStackTrace();
             return null;

@@ -83,7 +83,7 @@ public class BoardManager {
 
     private static Icon getIcon(String filename) {
         try {
-            return new ImageIcon(ImageIO.read(BoardManager.class.getResourceAsStream("/" + filename)));
+            return new ImageIcon(ImageIO.read(BoardManager.class.getResourceAsStream("/resources/" + filename)));
         } catch (IOException e) {
             e.printStackTrace();
             return null;
